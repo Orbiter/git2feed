@@ -1,6 +1,9 @@
 #!/bin/bash
 
 # this code was provided by sixcooler
+# the source is hosted at https://gitorious.org/git2feed/git2feed
+# this script like it is related to YaCy, but it could be generic as well
+# please help to make this a great git tool!
 
 # preparation of this script:
 # cd ..
@@ -21,7 +24,7 @@ cd -
 gitDir=$1/.git
 outDir=$2
 declare -i counter
-counter=9000
+counter=30
 now=`date -R`
 
 feed="<?xml version=\"1.0\" encoding=\"UTF-8\" ?>
